@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "name": "functions.js",
+  "version": "1.0.0",
+  "description": "Pass functions to the client instead of API routes",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests/1/test.js"
+  },
+  "author": "YodaLightsabr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yodalightsabr/functions.js.git"
+  },
+  "keywords": [
+    "functions",
+    "api",
+    "express",
+    "http"
+  ],
+  "bugs": {
+    "url": "https://github.com/yodalightsabr/functions.js/issues"
+  },
+  "homepage": "https://github.com/yodalightsabr/functions.js#readme"
+}
