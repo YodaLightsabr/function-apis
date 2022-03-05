@@ -2,7 +2,7 @@
   "dependencies": {
     "express": "^4.17.3"
   },
-  "name": "functions.js",
+  "name": "function-apis",
   "version": "1.0.0",
   "description": "Pass functions to the client instead of API routes",
   "main": "index.js",
