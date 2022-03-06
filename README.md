@@ -1,4 +1,4 @@
-# functions.js
+# function-apis
 Pass functions to the client instead of API routes
 --------------------
 API routes are great for APIs, but for small projects where you have to access server data or hide application logic, you can just call a server function from the client.
@@ -8,6 +8,7 @@ API routes are great for APIs, but for small projects where you have to access s
 // Hide server logic
 
 // Server
+const functions = require('function-apis');
 app.use(functions({
     hello: (name) => {
         return `Hello, ${name}!`;
@@ -22,6 +23,7 @@ hello('World').then(alert); // => 'Hello, World!'
 // Log something to the console
 
 // Server
+const functions = require('function-apis');
 app.use(functions({
     consoleLog: (...data) => {
         console.log(...data);

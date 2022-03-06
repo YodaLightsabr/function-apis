@@ -3,7 +3,7 @@
     "express": "^4.17.3"
   },
   "name": "function-apis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pass functions to the client instead of API routes",
   "main": "index.js",
   "devDependencies": {},
